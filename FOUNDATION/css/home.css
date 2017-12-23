@@ -1,0 +1,101 @@
+/*Fondo*/
+.fondo-body {
+  background: url(../img/fondo1.jpg);
+  background-repeat: repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.contenedor{
+	background-color: rgba(215,210,210,0.6);
+}
+.cabecera{
+	margin-bottom: 5px;
+}
+
+/*Contenedor*/
+
+.logo{
+	width: 150px;
+	height: 150px;
+}
+
+/*Colores Prueba*/
+
+.fondo-post{
+	background-color:#ffffff;
+}
+.negro{
+	background-color: rgba(0,0,0,0.5);
+}
+/*Cajas Prueba*/
+
+.box{
+	border: 2px solid white;
+}
+
+
+.box--smallfavoritos{
+	height: 154px;
+	padding: 0;
+	margin: 0;
+}
+
+.img-miniatura{
+	width: 150px;
+	height: 150px;
+}
+
+.imagenpost{
+	padding: 5px;
+}
+
+.boton{
+	margin-right: 50px;
+}
+
+.postder, .postizq{
+	padding: 15px;
+}
+
+.ingredientes{
+	background-color: #EDC2CB;
+}
+
+.comentario-publicado{
+	padding: 10px;
+}
+.border{
+	border: 1px solid #DCDADA;
+	border-radius: 5px;
+}
+
+h4{
+  color: #3F7DDA;
+}
+
+h5{
+	color: #D462FA;
+}
+.titulo{
+	
+}
+.fecha{
+	color: #272323;
+	padding-right: 15px;
+}
+
+p{
+	color: #3B3939;
+}
+
+/*Slogan*/
+.eslogan{
+	color:#fff;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 24px;
+}
+
