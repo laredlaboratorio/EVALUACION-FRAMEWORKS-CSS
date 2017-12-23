@@ -1,0 +1,102 @@
+body {
+ background: url(../img/fondo.jpg);
+	  background-position: center center;	  
+	  background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+p{
+	margin: 0;
+	padding: 0;
+}
+
+h5{
+	font-style: italic;
+	color: white;
+}
+
+#contenedor_vertical{
+  height: 500px;
+}
+
+.filacabecera{
+	height: 10rem;
+	margin-bottom: 0px;
+}
+
+.espaciologo {
+	height: 10rem;
+}
+
+.espaciomenu {
+	padding: 0px;
+	margin: 0px;
+}
+
+.botonera {
+	padding: 0px;
+	margin: 0px;
+	font-size: 12px;
+}
+
+.container{
+	margin-top: 10px;
+}
+
+.eslogan {
+	padding: 0px;
+	margin-top: 0px;
+	font-size: 12px;
+}
+
+
+div[class*="chip"]{
+  margin-bottom: 1rem;
+}
+
+
+.nav-wrapper{
+	background-color: #F8F8FF !important;
+}
+
+.iconosredes{
+	margin-top: 10px;
+	margin-bottom: 15px;
+	
+}
+
+.arriba{
+	margin: 0px;
+	padding: 0px;
+}
+
+.blogimagen{
+	margin: 0px;
+	padding: 0px;
+}
+
+.blogparrafo{
+	margin: 0px;
+	padding: 0px;
+}
+
+.blogimagen{
+	margin: 0px;
+	padding: 0px;
+}
+
+.blog{
+	margin: 0px;
+	padding: 0px;
+}
+
+@media (max-width:600px) { /*PUNTO 8*/
+  .menu >li >a{
+  	display: inline-block;    
+    padding: 5px;
+    margin: auto;
+
+    
+  }
+}
