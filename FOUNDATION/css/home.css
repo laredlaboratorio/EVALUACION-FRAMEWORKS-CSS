@@ -8,34 +8,30 @@
   height: 100%;
 }
 
+/*Contenedor*/
 .contenedor{
 	background-color: rgba(215,210,210,0.6);
+	margin-top: 10px;
 }
-.cabecera{
-	margin-bottom: 5px;
-}
-
-/*Contenedor*/
-
+/*Cabecera*/
 .logo{
 	width: 150px;
 	height: 150px;
 }
 
-/*Colores Prueba*/
+/*Colores*/
 
-.fondo-post{
-	background-color:#ffffff;
-}
 .negro{
 	background-color: rgba(0,0,0,0.5);
+}
+.fondo-post{
+	background-color: rgba(255,255,255,0.6);
 }
 /*Cajas Prueba*/
 
 .box{
 	border: 2px solid white;
 }
-
 
 .box--smallfavoritos{
 	height: 154px;
@@ -61,17 +57,18 @@
 }
 
 .ingredientes{
-	background-color: #EDC2CB;
+	background-color: rgba(255, 0, 0, 0.3);
 }
 
+/*Comentarios*/
 .comentario-publicado{
 	padding: 10px;
 }
 .border{
-	border: 1px solid #DCDADA;
+	border: 1px solid #BDBCBC;
 	border-radius: 5px;
 }
-
+/*Estilos Generales*/
 h4{
   color: #3F7DDA;
 }
@@ -97,5 +94,51 @@ p{
 	font-weight: bold;
 	font-style: italic;
 	font-size: 24px;
+}
+
+/*Menu*/
+
+.menu{
+	background: rgba(255, 0, 0, 0.6);
+}
+
+.menu li > a{
+	color: #ffffff;
+	text-align: center;
+}
+.menu li > a:hover{
+	background: rgba(255, 0, 0, 0.6);|
+}
+
+.barra-busqueda{
+	text-align: center;
+	background: rgba(215,210,210,0.6);
+}
+
+.historial{
+	list-style: none;
+
+}
+
+.historial li{
+	
+	border-bottom: 1px solid #ffffff;
+	background-color: rgba(0,0,0,0.5);
+	padding: 5px;
+	text-align: left;
+}
+
+.historial li>a{
+	color: #ffffff;
+}
+
+.historial li>a:hover{
+	color: #302626;
+}
+
+.vertical{
+	padding: 0;
+	margin: 0;
+	text-align: center;
 }
 

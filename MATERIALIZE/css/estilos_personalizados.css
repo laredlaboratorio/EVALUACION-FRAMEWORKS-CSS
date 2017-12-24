@@ -1,5 +1,5 @@
 body {
- background: url(../img/fondo.jpg);
+ background: url(../img/fondo2.jpg);
 	  background-position: center center;	  
 	  background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -13,7 +13,7 @@ p{
 
 h5{
 	font-style: italic;
-	color: white;
+	color: #000000;
 }
 
 #contenedor_vertical{
@@ -21,23 +21,30 @@ h5{
 }
 
 .filacabecera{
-	height: 10rem;
+	height: 13rem;
 	margin-bottom: 0px;
 }
 
 .espaciologo {
-	height: 10rem;
+	
+}
+
+.logo-imagen{
+	width: 300px;
+	height: 200px;
 }
 
 .espaciomenu {
 	padding: 0px;
 	margin: 0px;
+	
+	text-align: center;
 }
 
 .botonera {
 	padding: 0px;
 	margin: 0px;
-	font-size: 12px;
+	font-size: 10px;
 }
 
 .container{
@@ -57,7 +64,7 @@ div[class*="chip"]{
 
 
 .nav-wrapper{
-	background-color: #F8F8FF !important;
+	
 }
 
 .iconosredes{
@@ -89,14 +96,4 @@ div[class*="chip"]{
 .blog{
 	margin: 0px;
 	padding: 0px;
-}
-
-@media (max-width:600px) { /*PUNTO 8*/
-  .menu >li >a{
-  	display: inline-block;    
-    padding: 5px;
-    margin: auto;
-
-    
-  }
 }
